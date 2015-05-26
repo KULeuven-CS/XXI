@@ -12,10 +12,13 @@
 
 \usepackage[dutch]{babel}
 \usepackage[colorlinks]{hyperref}
-\usepackage{microtype}
+\usepackage[backend=bibtex,style=ieee]{biblatex}
 \usepackage[hyperref]{ntheorem}
+\usepackage{microtype}
 \usepackage{amsmath,amsfonts,amssymb}
 \usepackage{parskip}
+
+\bibliography{main}
 
 % Margin notes
 \usepackage{marginnote}
@@ -335,6 +338,18 @@ frequent volgens u of waar zouden ze frequenter zijn en waarom?
 
 \begin{answer}
 
+De vijf onderzoekers met het meeste terugtrekkingen van publicaties waren
+allemaal werkzaam in de biomedische sector. Vermoedelijk liggen
+belangenconflicten met betrekking tot de financiering van het onderzoek aan de
+basis daarvan. Onderzoek heeft aangetoond dat bijna de helft van de onderzoekers
+bepaalde geschenken of discretionaire fondsen heeft ontvangen van de sponsor
+\cite{doi:10.1001/jama.289.4.454}. Dit leidt tot een conflict waarbij het
+persoonlijk gewin, al dan niet financieel, invloed heeft op de primaire
+interesse van de patient.
+
 \end{answer}
+
+\nocite{*}
+\printbibliography
 
 \end{document}
