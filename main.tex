@@ -5,7 +5,7 @@
     top=3cm,
     bottom=3cm,
     outer=5cm,
-    inner=2cm,
+    inner=5cm,
     heightrounded,
     marginparwidth=3cm,
     marginparsep=1cm]{geometry}
@@ -31,19 +31,21 @@
 % Parskip
 \setlength{\parindent}{0pt}
 
+\makeatletter
+\def\@seccntformat#1{\llap{\csname the#1\endcsname\quad}}
+\makeatother
+
 % Title Page
 \title{Lessen voor de XXIe eeuw}
 \date{\today}
 \author{Jonas Devlieghere}
 
 % Q&A
-\theoremstyle{plain}
+\theoremstyle{nonumberplain}
 \newtheorem{question}{Vraag}
 
-\theoremstyle{nonumberplain}
 \theorembodyfont{}
 \newtheorem{answer}{Antwoord}
-
 
 \begin{document}
 \maketitle
@@ -59,7 +61,7 @@ genuanceerde wijze - aan of die stelling op basis van de beschikbare gegevens
 kan worden bevestigd of weerlegd?
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 De eerste ``populaire mythe'' luidt dat de jeugdcriminaliteit stijgt. Om hierop
 een antwoord te geven zullen we ons baseren op zowel de ``officiële
@@ -95,7 +97,7 @@ hernieuwbare energiebronnen op het evenwicht van vraag en aanbod, in een
 intelligent energienet.
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 De elektriciteitsopwekking uit hernieuwbare bronnen is erg variabel, moeilijk
 voorspelbaar en amper stuurbaar. Daarom krijgen deze bronnen prioriteit wat wil
@@ -116,7 +118,7 @@ Tax shift versus tax lift en de plaats die de belasting op vermogensmeerwaarden
 in dit debat inneemt. Bespreek.
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 De tax shift impliceert een vermindering van de fiscale druk op
 arbeidsinkomsten, met deze last te spreiden over alle generaties. De last zou
@@ -140,7 +142,7 @@ duidelijke positie in en beargumenteer uw positie beknopt door gebruik te maken
 van lesmateriaal of ander materiaal in de media.
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 Hoewel er belangrijke maatregels zijn getroffen ben ik van mening dat deze
 onvoldoende zijn omdat radicale hervormingen gemeden zijn en mijn inziens
@@ -170,7 +172,7 @@ Licht toe welke redenen aan de basis kunnen liggen waarom de terugbetaling van
 geneesmiddelen nog geen Europees gebeuren is.
 \end{question}
 
-\begin{answer}
+\begin{answer}[]
 
 \end{answer}
 
@@ -181,7 +183,7 @@ Leg uit: voor Marcel Gauchet is de ‘dynamiek van transcendentie’ de motor va
 ontwikkeling in de richting van secularisatie.
 \end{question}
 
-\begin{answer}
+\begin{answer}[Dennis]
 
 Met `dynamiek van trancendentie' bedoelt Gauchet dat aanvankelijk zowel de
 transcendente wereld verstrengeld is met onze concrete, zichtbare wereld. Voor
@@ -209,7 +211,7 @@ voordracht (performerdichters en slammers)? Zijn dit weerleggingen van de
 algemene stelling?
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 In elk van de aangehaalde voorbeelden gaat het nog steeds om geschreven teksten
 die mondeling worden gedeeld. De ingrijpende veranderingen die de boekdrukkunst
@@ -232,7 +234,7 @@ die met een minimum aan middelen wordt vertaald. Geef enige toelichting waarom
 dit werk van Ito een betekenis heeft.
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 Het ontwerp van Toyo Ito was een U-vormige ruimte, open aan twee zijden en
 geplaatst in een ondiepe cirkelvormige vijver. Het was een eerbetoon aan Jan Van
@@ -253,7 +255,7 @@ Wat is een `fysieke context' en wat is een `humane context' en hoe kunnen
 die toegepast worden op één van de drie projecten BsS, Avalon of B@L?
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 De \emph{context} is het betekenisgevend kader waarbinnen iets plaatsvindt. De
 \emph{fysieke context} heeft betrekking op de specifieke architectuur. Hoe is
@@ -276,7 +278,7 @@ Is Venetië inderdaad een exemplarisch voorbeeld van de toeristische `tragedy of
 the commons'? Leg uw antwoord uit.
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 Dit is zeker het geval. Door een gebrekkig beleid overstijgt de stroom van
 toeristen overstijgt de toeristische draagkracht. Het streven van de individuele
@@ -294,7 +296,7 @@ Leg uit waarom de traditionele, functionele manier van werken niet meer
 aangepast is aan de omgevingseisen anno 2015.
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 De functionele structuur leidt tot weinig samenhang tussen de activiteiten en
 dus weinig samenwerking. Deze fragmentatie zorgt voor immense afhankelijkheid
@@ -314,7 +316,7 @@ Wat is de rol van preventie en screening voor kanker en waarom zijn ze
 belangrijk?
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 De kans tot kanker is naast genetische achtergrond ook gerelateerd aan
 omgevingsfactoren en de levensstijl van de persoon. Door carcinogenen te mijden
@@ -336,7 +338,7 @@ Zijn schendingen van wetenschappelijke integriteit in alle disciplines even
 frequent volgens u of waar zouden ze frequenter zijn en waarom?
 \end{question}
 
-\begin{answer}
+\begin{answer}[Jonas]
 
 De vijf onderzoekers met het meeste terugtrekkingen van publicaties waren
 allemaal werkzaam in de biomedische sector. Vermoedelijk liggen
